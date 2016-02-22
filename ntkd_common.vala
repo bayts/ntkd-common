@@ -1,6 +1,6 @@
 /*
  *  This file is part of Netsukuku.
- *  (c) Copyright 2015 Luca Dionisi aka lukisi <luca.dionisi@gmail.com>
+ *  (c) Copyright 2015-2016 Luca Dionisi aka lukisi <luca.dionisi@gmail.com>
  *
  *  Netsukuku is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU General Public License as published by
@@ -31,6 +31,15 @@ namespace Netsukuku
         public bool equals(HCoord other)
         {
             return lvl == other.lvl && pos == other.pos;
+        }
+    }
+
+    public class NodeID : Object
+    {
+        public int id {get; set;}
+        public NodeID(int id)
+        {
+            this.id = id;
         }
     }
 }
