@@ -41,6 +41,11 @@ namespace Netsukuku
         {
             this.id = id;
         }
+
+        public bool equals(NodeID other)
+        {
+            return id == other.id;
+        }
     }
 }
 
