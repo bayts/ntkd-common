@@ -1,0 +1,6 @@
+Part of Netsukuku.
+
+This package builds a simple library on which several modules of the application
+depend. Except for it, each module has no dependency on each other.
+The ''ntkd'' daemon depends on it.
+
