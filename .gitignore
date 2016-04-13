@@ -3,6 +3,8 @@ ntkd-common.h
 ntkd-common.vapi
 Makefile.in
 Makefile
+ntkd-common.pc
+*.o
 *.lo
 *.la
 .deps
