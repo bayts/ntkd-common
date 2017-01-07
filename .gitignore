@@ -1,3 +1,4 @@
+*~
 ntkd_common.c
 ntkd-common.h
 ntkd-common.vapi
@@ -29,5 +30,6 @@ missing
 test-driver
 compile
 .valencia
+.buildconfig
 debug
 finalbuild
